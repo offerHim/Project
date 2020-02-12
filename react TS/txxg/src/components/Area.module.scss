@@ -1,0 +1,194 @@
+.placeArea{
+    height: .84rem;
+    line-height: .84rem;
+    font-size: .28rem;
+    text-align: center;
+    padding: 0 .4rem;
+    background-color: #f8f8f8;
+    position: relative;
+    display: flex;
+}
+.placeArea:not(:last-child){
+   border-bottom: 1px solid #e9e9e9; 
+}
+.placeArea>h2{
+    width: 1.47rem;
+    height: 100%;
+    text-align: left;
+    font-weight: 400;
+    overflow: hidden;
+    font-size: 0.3rem;
+}
+.placeArea>div{
+    width: 1.28rem;
+    height: 100%;
+    overflow: hidden;
+}
+.nav{
+    height: .84rem;
+    line-height: .84rem;
+    font-size: .24rem;
+    color: #222;
+    text-align: center;
+    padding: 0 .4rem;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+}
+.nav>h2{
+    width: 1.47rem;
+    height: 100%;
+    text-align: left;
+    font-weight: 400;
+    overflow: hidden;
+    font-size: .24rem;
+}
+.nav>div{
+    width: 1.28rem;
+    height: 100%;
+    overflow: hidden;
+}
+.add{
+    color: #005dff;
+}
+.blue{
+    color: #005dff;
+    font-weight: 400;
+}
+.index{
+    display: none;
+}
+.activeIndex{
+       display: block;
+}
+.uchi {
+    box-sizing: border-box;
+    padding: 0 0 0 .4rem;
+    line-height: .8rem;
+    color: #222222;
+    font-size: .28rem;
+    font-weight: bold;
+    height: .9rem;
+    margin-top: .7rem;
+    margin-bottom: .3rem;
+    position: relative;
+    padding-left: .86rem;
+}
+.uchi::before {
+    content: '.';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    width: .32rem;
+    height: .32rem;
+    background: url(https://mat1.gtimg.com/news/zhishiguan/page/icon_gnbl.png);
+    background-size: 100% 100%;
+    left: .4rem;
+    top: 50%;
+    transform: translate(0, -66%);
+}
+.uchi .tips {
+    position: absolute;
+    top: .5rem;
+    left: .28rem;
+    color: #737373;
+    font-size: .24rem;
+    font-weight: normal;
+    font-style: normal;
+}
+.abroad{
+    height: .84rem;
+    line-height: .84rem;
+    font-size: .24rem;
+    color: #222;
+    text-align: center;
+    padding: 0 .4rem;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+}
+.abroad>h2{
+    width: 1.47rem;
+    height: 100%;
+    text-align: left;
+    font-weight: 400;
+    overflow: hidden;
+    font-size: .24rem;
+}
+.abroad>div{
+    width: 1.7rem;
+    height: 100%;
+    overflow: hidden;
+}
+.no_sharp{
+    height: .84rem;
+    line-height: .84rem;
+    font-size: .28rem;
+    text-align: center;
+    padding: 0 .4rem;
+    background-color: #f8f8f8;
+    position: relative;
+    display: flex;
+}
+.no_sharp:not(:last-child){
+    border-bottom: 1px solid #e9e9e9; 
+ }
+ .no_sharp>h2{
+     width: 1.47rem;
+     height: 100%;
+     text-align: left;
+     font-weight: 400;
+     overflow: hidden;
+     font-size: 0.3rem;
+ }
+ .no_sharp>div{
+     width: 1.7rem;
+     height: 100%;
+     overflow: hidden;
+ }
+ .up_tips{
+    box-sizing: border-box;
+    padding: 0 0 0 .4rem;
+    height: .8rem;
+    line-height: .8rem;
+    color: #222222;
+    font-size: .28rem;
+    font-weight: bold;
+    position: relative;
+    padding-left: .86rem;
+    margin-top: .8rem;
+ }
+ .up_tips::before {
+    content: '.';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    width: .32rem;
+    height: .32rem;
+    background: url(https://mat1.gtimg.com/news/zhishiguan/page/icon_gnbl.png);
+    background-size: 100% 100%;
+    left: .4rem;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+.datas {
+    font-size: .28rem;
+    font-weight: normal;
+    margin-left: .24rem;
+}
+.datas>span {
+    font-weight: bold;
+}
+.moveNavLast {
+    color: #737373;
+    font-size: .24rem;
+    margin: .3rem 0 0 .4rem;
+    position: relative;
+}
+.moveNavLast span {
+    position: relative;
+    display: inline-block;
+    padding-right: .3rem;
+}

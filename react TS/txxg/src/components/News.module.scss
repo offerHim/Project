@@ -1,0 +1,72 @@
+select,option{
+    /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+    border: none;
+    outline: none;
+    /*很关键：将默认的select选择框样式清除*/
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    /*将背景改为红色*/
+    background:#fff;
+    /*加padding防止文字覆盖*/
+    padding-right: .14rem;
+    border: 1px solid #005Dff;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 14px;
+    text-align: center;
+    height: 20px;
+}
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand {display: none;}
+.tit{
+    font-size: 20px;
+    color: #005Dff;
+    font-weight: 300;
+}
+.wrap{
+   height: 6.34rem;
+   background: #EEf5FF;
+   padding: 20px 20px 20px 20px;
+}
+// .q{
+//     border: 1px solid #005Dff;
+//     color: blue;
+//     text-align: center;
+// }
+.box{
+    display: flex;
+    justify-content: space-between;
+    // margin: 30px 20px 30px 20px;
+    margin-bottom: 10px;
+}
+.num{
+    display: flex;
+    justify-content: space-around;
+}
+.num li{
+    text-align: center;
+}
+.l1{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #4c8dff;
+}
+.l2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #f56163;
+}
+.l3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #87c2ab;
+}
+.l4{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #7e7f86;
+}

@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html{
+  font-size: calc(100vw / 750 * 100);
+}
+html,body,#root,.App{
+  height: 100%;
+}
+.App{
+  max-width: 705px;
+  /* margin: 0 auto; */
+  /* background: gray; */
+  width: 100%;
+}
+.chart{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
