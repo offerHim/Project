@@ -1,15 +1,5 @@
 <!--index.wxml-->
 <view class="container">
-  <!-- <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view> -->
   <view class='header'>
       <view class='h3'><text>中国现阶段人均寿命 900 个月</text></view>
       <view class='h1'><text>{{year}}年{{month}}月至今{{distance}}个月</text></view>
@@ -23,7 +13,7 @@
   <view class='box'>
     <progress percent="{{percent}}" color="pink" stroke-width="10" show-info/>
   </view>
-  <view class='nav'>
+  <!-- <view class='nav'>
     <text wx:for="{{navlist}}">{{item}}</text>
-  </view>
+  </view> -->
 </view>
